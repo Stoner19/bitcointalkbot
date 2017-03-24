@@ -1,4 +1,4 @@
--e git+https://github.com/kurtmckee/feedparser.git
+-e git+https://github.com/kurtmckee/feedparser/#egg=feedparser
 beautifulsoup4
 requests
 pyslack
