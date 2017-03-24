@@ -30,6 +30,6 @@ $ heroku ps:scale bot=1
 
 The following config vars are required:
  - `KEYWORDS`: a comma separated list of keywords to listen on
- - `SLACK_API_TOKEN`: Slack authentication token (get one at [https://synereo.slack.com/services/new/bot](https://synereo.slack.com/services/new/bot))
+ - `SLACK_API_TOKEN`: Slack authentication token (get one at [https://<your slack team name>.slack.com/services/new/bot](https://<your slack team name>.slack.com/services/new/bot))
  - `SLACK_USERNAME`: Username for bot on Slack
  - `SLACK_CHANNEL`: Channel to post updates on Slack
