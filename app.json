@@ -1,0 +1,7 @@
+{
+  "name": "Bitcointalk ANN Bot",
+  "description": "Bot that auto posts new ANN threads to slack",
+  "repository": "https://github.com/Stoner19/bitcointalkbot",
+  "logo": "http://i.imgur.com/EBA7ydh.png",
+  "keywords": ["bitcoin", "slack", "announcement"]
+}
