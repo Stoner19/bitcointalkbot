@@ -4,4 +4,23 @@
   "repository": "https://github.com/Stoner19/bitcointalkbot",
   "logo": "http://i.imgur.com/EBA7ydh.png",
   "keywords": ["bitcoin", "slack", "announcement"]
+    "env": {
+    "KEYWORDS": {
+      "description": "a comma separated list of keywords to listen on",
+      "required": true
+    },
+    "SLACK_API_TOKEN": {
+      "description": "Slack bot token (get one at https://yourslackteamname.slack.com/services/new/bot)",
+      "required": true
+    },
+    "SLACK_USERNAME": {
+      "description": "Username for bot on Slack",
+      "required": true
+    },
+    "SLACK_CHANNEL": {
+      "description": "Channel to post updates on Slack",
+      "required": true
+    }
+  }
+
 }
